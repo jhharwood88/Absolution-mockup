@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
- resources :information
+
+ root to: 'information#index'
+ resources :information, only: [:index, :show]
 end
