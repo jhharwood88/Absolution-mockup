@@ -1,0 +1,2 @@
+module SpireHelper
+end

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
  resources :information, only: [:index]
  resources :leviathan, only: [:index]
  resources :eater, only: [:index]
+ resources :spire, only: [:index]
 end
