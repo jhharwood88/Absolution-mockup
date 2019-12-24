@@ -7,4 +7,5 @@ Rails.application.routes.draw do
  resources :spire, only: [:index]
  resources :last_wish, only: [:index]
  resources :scourge, only: [:index]
+ resources :garden, only: [:index]
 end
