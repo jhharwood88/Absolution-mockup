@@ -1,0 +1,2 @@
+module EaterHelper
+end
