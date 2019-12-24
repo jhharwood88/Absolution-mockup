@@ -5,4 +5,5 @@ Rails.application.routes.draw do
  resources :leviathan, only: [:index]
  resources :eater, only: [:index]
  resources :spire, only: [:index]
+ resources :last_wish, only: [:index]
 end
