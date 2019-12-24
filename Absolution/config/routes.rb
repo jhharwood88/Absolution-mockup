@@ -6,4 +6,5 @@ Rails.application.routes.draw do
  resources :eater, only: [:index]
  resources :spire, only: [:index]
  resources :last_wish, only: [:index]
+ resources :scourge, only: [:index]
 end
