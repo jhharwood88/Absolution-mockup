@@ -1,0 +1,2 @@
+class PitController < ApplicationController
+end
