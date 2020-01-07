@@ -8,4 +8,6 @@ Rails.application.routes.draw do
  resources :last_wish, only: [:index]
  resources :scourge, only: [:index]
  resources :garden, only: [:index]
+ resources :shattered, only: [:index]
+ resources :pit, only: [:index]
 end
