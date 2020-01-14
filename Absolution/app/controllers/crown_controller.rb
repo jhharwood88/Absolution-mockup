@@ -1,0 +1,2 @@
+class CrownController < ApplicationController
+end
