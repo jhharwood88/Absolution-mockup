@@ -10,4 +10,5 @@ Rails.application.routes.draw do
  resources :garden, only: [:index]
  resources :shattered, only: [:index]
  resources :pit, only: [:index]
+ resources :crown, only: [:index]
 end
