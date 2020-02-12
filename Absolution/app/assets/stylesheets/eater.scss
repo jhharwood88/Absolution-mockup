@@ -1,13 +1,23 @@
+#link-to-home {
+		font-size: 25px;
+		text-align: center;
+}
+
 #title {
+	font-size: 50px;
 	text-align: center;
 	font-style: italic;
+	text-decoration-line: underline;
 }
 
 #small-title {
+	font-size: 35px;
 	text-align: center;
  	font-style: italic;
 }
 
 #details{
+	line-height: 130%;
+	font-size: 20px;
 	margin: 50px;
 }
