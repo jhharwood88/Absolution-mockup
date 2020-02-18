@@ -1,13 +1,26 @@
-<%= link_to "Home", root_path, method: "get"%>
-<h1>Spire of Stars</h1>
-<h2>First Encounter</h2>
-<%= image_tag "spire/spire_first_encounter.jpg" %></br>
-<h2>Jumping Puzzle</h2>
-<%= image_tag "spire/spire_jump_deposit.jpg" %></br>
-<h2>Second Encounter</h2>
-<%= image_tag "spire/spire_lift_to_ships.jpg" %></br>
-<%= image_tag "spire/spire_ship_image.png" %></br>
-<%= image_tag "spire/spire_plate.jpg" %></br>
-<h2>Boss Encounter</h2>
-<%= image_tag "spire/spire_boss_room.jpg" %></br>
-<%= link_to "Home", root_path, method: "get"%>
+<html>
+	<body>
+		<div id="container">
+
+			<div id="link-to-home"><%= link_to "Home", root_path, method: "get"%></div>
+
+			<h1 id="title">Spire of Stars</h1>
+
+			<h2 id="small-title">First Encounter</h2>
+			<%= image_tag "spire/spire_first_encounter.jpg" %></br>
+
+			<h2 id="small-title">Jumping Puzzle</h2>
+			<%= image_tag "spire/spire_jump_deposit.jpg" %></br>
+
+			<h2 id="small-title">Second Encounter</h2>
+			<%= image_tag "spire/spire_lift_to_ships.jpg" %></br>
+			<%= image_tag "spire/spire_ship_image.png" %></br>
+			<%= image_tag "spire/spire_plate.jpg" %></br>
+
+			<h2 id="small-title">Boss Encounter</h2>
+			<%= image_tag "spire/spire_boss_room.jpg" %></br>
+
+			<div id="link-to-home"><%= link_to "Home", root_path, method: "get"%></div>
+		</div>
+	</body>
+</html>
